@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoàng Huy & Trang Đoan</title>
+
+  <!-- Các thông tin khác cho Open Graph -->
+  <meta property="og:title" content="Hoàng Huy & Trang Đoan" />
+  <meta property="og:description" content="02.08.2026" />
+  <meta property="og:type" content="website" />
+
+  <meta property="og:image" content="">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="400">
+
+  <link rel="stylesheet" href="../dist/css/main.css" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <input type="checkbox" name="" id="nav-toggle" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#greeting">Gửi những người thân thương</a></li>
+          <li><a href="#couple">Hẹn ngày mình gặp gỡ</a></li>
+          <li><a href="#our-story">Chuyện chúng mình </a></li>
+          <li><a href="#photos">Vì chúng ta gìn giữ</a></li>
+          <li><a href="#rsvp">Xác nhận khách mời</a></li>
+          <li><a href="#thankyou">Lời cảm ơn đặc biệt</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- SECTION 1: COVER / ENVELOPE -->
+    <section id="cover" class="cover">
+      <img src="../assets/images/letter.png" alt="cover" class="fade-down">
+    </section>
+
+    <!-- SECTION 2: OPEN LETTER / GREETING -->
+    <section id="greeting" class="greeting">
+      <div class="content">
+        <h2 class="fade-down">Gửi những người </br> Thân Thương</h2>
+        <p class="fade-right">
+          Sau những ngày tháng cùng nhau viết nên câu chuyện của riêng mình, chúng con - Hoàng Huy và Trang Đoan - đã sẵn sàng bước sang một chương mới. Trong khoảnh khắc ý nghĩa này, chúng con trân trọng gửi đến những người thân yêu nhất lời mời tham dự ngày vui và mong được gặp gỡ để niềm hạnh phúc thêm trọn vẹn.
+        </p>
+        <div class="signature fade-up">
+          <div class="wife-name">
+            <p>Hoàng Huy</p>
+          </div>
+          <div class="img-box">
+            <img src="../assets/images/logo.png" alt="Logo couple" class="logo-couple">
+          </div>
+          <div class="husband-name">
+            <p>Trang Đoan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: COUPLE INTRO -->
+    <section id="couple" class="couple">
+      <h2 class="fade-up">Hẹn ngày mình gặp gỡ</h2>
+      <div class="couple-photo">
+        <img src="" alt="" class="flip-vertical-left" />
+      </div>
+      <div class="save-the-date">
+        <p class="fade-right">save the date</p>
+      </div>
+      <div class="subtext fade-down">
+        <p>Ngày ấy đang dần đến gần!</p>
+        <p>Chúng mình, chúng con - Hoàng Huy và Trang Đoan mong được gặp lại những người thân thương, cùng nhau tạm gác những bộn bề ngoài kia để cùng chia
+          sẻ niềm vui và viết tiếp câu chuyện của PONLLD.</p>
+      </div>
+      <div class="date-time">
+        <p class="date fade-right">02.08.2026</p>
+        <p class="time fade-right">11:30 - Chủ Nhật</p>
+      </div>
+      <div class="countdown">
+        <div class="months item">
+          <p class="value months" id="months">00</p>
+          <p class="title">Tháng</p>
+        </div>
+        <div class="weeks item">
+          <p class="value weeks" id="weeks">00</p>
+          <p class="title">Tuần</p>
+        </div>
+        <div class="days item">
+          <p class="value days" id="days">00</p>
+          <p class="title">Ngày</p>
+        </div>
+        <div class="seconds item">
+          <p class="value seconds" id="seconds">00</p>
+          <p class="title">Giây</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: LOCATION -->
+    <section id="location" class="location">
+      <h2 class="location-name fade-up">Bảo Trâm Gold</h2>
+      <p class="address fade-right">TDP Tân Hải, xã Cam Lâm, Tỉnh Khánh Hòa</p>
+      <div class="map">
+        <img src="../assets/images/map2.png" class="map2" alt="Bản đồ địa điểm cưới" class="flip-vertical-left" />
+      </div>
+      <a target="_blank" href="https://maps.app.goo.gl/tcD6dvX8g3tG6LiZ6" class="btn-map fade-down">Xem bản đồ</a>
+
+      <div class="timeline">
+        <div class="logo">
+          <img src="../assets/images/logo-timeline.png" alt="Logo couple timeline" class="flip-vertical-left">
+        </div>
+        <p class="title fade-down">Timeline</p>
+        <div class="time-box">
+          <div class="timeline-item first">
+            <div class="icon">
+              <img src="../assets/images/icons/camera.webp" alt="">
+            </div>
+            <p class="description">11:30 - Đón Khách</p>
+          </div>
+          <div class="timeline-item second">
+            <div class="icon">
+              <img src="../assets/images/icons/rings.webp" alt="">
+            </div>
+            <p class="description">12:00 - Làm Lễ</p>
+          </div>
+          <!-- <div class="timeline-item third">
+            <div class="icon">
+              <img src="../assets/images/icons/cup.webp" alt="">
+            </div>
+            <p class="description">17:30 - Khai Tiệc</p>
+          </div> -->
+          <!-- <div class="timeline-item four">
+            <div class="icon">
+              <img src="../assets/images/icons/party.webp" alt="">
+            </div>
+            <p class="description">20:00 - Giao Lưu</p>
+          </div>
+          <div class="timeline-item five">
+            <div class="icon">
+              <img src="../assets/images/icons/heart.webp" alt="">
+            </div>
+            <p class="description">21:00 - Kết thúc</p>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: STORY / ABOUT -->
+    <section id="our-story" class="our-story">
+      <div class="logo">
+        <img src="../assets/images/logo.png" alt="" class="flip-vertical-left">
+      </div>
+      <h2 class="fade-up">Chuyện chúng mình</h2>
+      <h3 class="fade-right">Huy & Đoan</h3>
+      <p class="subtext fade-down">ngày chúng mình </br> kể chuyện</p>
+      <div class="photo">
+        <img
+          src="../assets/images/couple/2.webp"
+          alt="" class="animate-flip">
+      </div>
+      <div class="text">
+        <p class="fade-right">
+          Chúng con tình cờ gặp nhau vài năm về trước, từng trải qua những ngày yêu xa, những lần cãi vã, xa cách rồi lại tìm thấy nhau.
+        </p>
+        <p class="fade-right">
+          Mỗi giai đoạn đều mang một tên gọi, một cột mốc và một câu chuyện riêng. Có những lúc tưởng chừng hành trình này sẽ dừng lại, nhưng sau tất cả, chúng con vẫn chọn người đồng hành này qua từng năm tháng.
+        </p>
+        <p class="fade-right">
+          Và cho đến hôm nay, khi quyết định từ người yêu trở thành bạn đời, chúng con vẫn đang học cách sẻ chia, cảm thông và thấu hiểu nhau hơn mỗi ngày. 
+        </p>
+        <p class="fade-right">
+          Trân quý những phút giây bên cạnh nhau!
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 5: PHOTOS -->
+    <section id="photos" class="photos">
+      <h2 class="fade-up">Vì chúng ta </br> gìn giữ</h2>
+      <p class="fade-right">Chúng con muốn lưu giữ những kỷ niệm không chỉ của riêng hai đứa, mà còn của những người thân yêu đã luôn bên cạnh, đồng hành và tiếp thêm yêu thương trên hành trình này. Bởi chúng con tin rằng, nơi có gia đình, bạn bè thân thiết, chính là nơi hạnh phúc nhất.
+      </p>
+      <div class="photo-grid">
+        <div class="row">
+          <div class="column">
+            <div class="img-box fade-down">
+              <img loading="lazy"
+                src="../assets/images/couple/IMG_3851.webp" style="object-position: 36% 50%;" alt="">
+            </div>
+          </div>
+          <div class="column flip-vertical-left">
+            <div class="img-box">
+              <img loading="lazy" src="../assets/images/couple/IMG_3852.webp"
+                alt="" style="object-position: 50% 75%;">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="img-box fade-down">
+              <img loading="lazy"
+                src="../assets/images/couple/IMG_3854.webp"
+                alt="" style="object-position: 100% 12%;">
+            </div>
+          </div>
+          <div class="column">
+            <div class="img-box flip-vertical-left">
+              <img loading="lazy"
+                src="../assets/images/couple/IMG_3855.webp"
+                alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: RSVP -->
+    <section id="rsvp" class="rsvp">
+      <h2 class="title fade-up">Xác nhận khách mời</h2>
+      <p class="subtext fade-right">Chúng con rất mong được đón tiếp mọi người chỉnh chu nhất trong ngày đặc biệt ấy. Nếu mọi người có thể sắp xếp tham dự, hãy cho chúng con biết <strong>trước ngày 20/07/2026</strong> để mọi thứ được chuẩn bị thật chu đáo cho buổi gặp gỡ đáng nhớ này nhé!</p>
+
+      <form id="rsvp-form">
+        <div class="form-group options-group fade-up">
+          <input type="radio" class="confirm" id="confirm-yes" value="yes" name="confirm" checked>
+          <label for="confirm-yes" class="radio-button confirm-yes">SẼ THAM DỰ</label>
+          <input type="radio" class="confirm" id="confirm-no" value="no" name="confirm">
+          <label for="confirm-no" class="radio-button confirm-no">TIẾC QUÁ! MÌNH </br> KHÔNG THỂ THAM DỰ</label>
+        </div>
+
+        <div class="form-group fade-right">
+          <input type="text" class="name input-text" id="name" name="name" placeholder="Tên Khách Mời" required>
+        </div>
+
+        <div class="form-group fade-right">
+          <input type="text" class="guest-number input-text" id="guest-number" name="guest_number"
+            placeholder="Số Người Đi Kèm (Không bao gồm bản thân bạn)">
+        </div>
+
+        <div class="wish-box">
+          <h2 class="fade-down">Một chút nhắn gửi từ </br> “người thương”</h2>
+          <p class="fade-up">Chúng con luôn lắng nghe những mong muốn từ cả nhà. Nếu có thắc mắc, hay cần hỗ trợ bất
+            cứ điều gì, đừng ngại cả nhà cứ ghi rõ để tụi mình sắp xếp chu đáo nhé!</p>
+
+          <div class="form-group fade-right">
+            <textarea class="wish input-text" id="wish" name="wish" placeholder="Viết lời nhắn gửi:"></textarea>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn fade-up">XÁC NHẬN</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- SECTION 7: THANK YOU -->
+    <section id="thankyou" class="thankyou">
+      <h2 class="title fade-up">Lời cảm ơn </br> đặc biệt</h2>
+      <div class="photo">
+        <img
+          src="../assets/images/couple/Final.webp"
+          alt="" class="animate-flip" style="object-position: 100% 46%;">
+      </div>
+      <div class="subtext">
+        <div class="divider">
+          <img src="../assets/images/icons/divider.webp" alt="" class="fade-right">
+        </div>
+        <div class="text">
+          <p class="fade-up">
+            Chúng con biết rằng, chẳng có hành trình nào thật sự trọn vẹn nếu đi một mình.  
+          </p>
+          <p class="fade-right">
+            Cảm ơn gia đình hai bên đã luôn yêu thương và thấu hiểu. Cảm ơn bạn bè đã đồng hành, lắng nghe và chia sẻ từng niềm vui nhỏ. Và cảm ơn nhau vì đã chọn ở lại, cùng nhau trưởng thành và gìn giữ tình yêu này.
+          </p>
+          <p class="fade-down">
+            Ngày hôm ấy sẽ là của chúng con, nhưng niềm vui ấy xin được chia sẻ chung đến tất cả mọi người.
+          </p>
+          <!-- <img src="../assets/images/end-text.png" alt=""> -->
+        </div>
+        <div class="divider">
+          <img src="../assets/images/icons/divider.webp" alt="" class="fade-left">
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="../assets/js/gsap-animations.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script>
+    // Mốc thời gian đích (ví dụ ngày cưới)
+    const targetDate = new Date("2026-08-02T11:30:00");
+
+    // Tính tháng, tuần, ngày thực tế (không tính giây)
+    function updateDateParts() {
+      const now = new Date();
+
+      if (now >= targetDate) {
+        document.getElementById("countdown").textContent = "Đã tới ngày đặc biệt!";
+        clearInterval(dateTimer);
+        clearInterval(secondTimer);
+        return;
+      }
+
+      let temp = new Date(now);
+      let months = 0;
+
+      // Tăng tháng bằng cách +1 từng tháng (KHÔNG overflow)
+      while (true) {
+        let next = new Date(temp);
+        next.setMonth(next.getMonth() + 1);
+
+        if (next > targetDate) break;
+
+        temp = next;
+        months++;
+      }
+
+      // Tính ms còn lại sau khi trừ tháng
+      let remainingMs = targetDate - temp;
+
+      let remainingDays = Math.floor(remainingMs / (1000 * 60 * 60 * 24));
+      let weeks = Math.floor(remainingDays / 7);
+      let days = remainingDays % 7;
+
+      document.getElementById("months").textContent = String(months).padStart(2, "0");
+      document.getElementById("weeks").textContent = String(weeks).padStart(2, "0");
+      document.getElementById("days").textContent = String(days).padStart(2, "0");
+    }
+
+    // === Bộ đếm giây chạy từ 59 → 0 lặp lại ===
+    let seconds = 59;
+    function updateSeconds() {
+      document.getElementById("seconds").textContent = seconds.toString().padStart(2, "0");
+      seconds = seconds > 0 ? seconds - 1 : 59;
+    }
+
+    // Cập nhật ban đầu
+    updateDateParts();
+    updateSeconds();
+
+    // Chạy định kỳ
+    const dateTimer = setInterval(updateDateParts, 60 * 1000); // cập nhật ngày/tháng mỗi phút
+    const secondTimer = setInterval(updateSeconds, 1000); // giây chạy đều
+  </script>
+</body>
+
+</html>
