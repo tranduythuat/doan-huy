@@ -2,30 +2,55 @@
 @use "../mixins" as *;
 
 .rsvp {
-    background: url('../../assets/images/rsvp-bg.webp') no-repeat center/cover;
-    max-width: 500px;
+    // background: url('../../assets/images/rsvp-bg.webp') no-repeat center/cover;
+    // max-width: 500px;
     width: 100%;
     aspect-ratio: 500 / 890;
-    justify-content: start;
+    justify-content: center;
+
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: url("../../assets/images/couple_bg.jpg");
+        background-size: cover;
+        background-position: center;
+        filter: blur(6px);
+        transform: scale(1.1); /* tránh viền trắng khi blur */
+        z-index: 0;
+    }
+
+    .content { 
+        background: url('../../assets/images/rsvp_paper.png') no-repeat center/cover;
+        max-width: 368px;
+        width: 100%;
+        aspect-ratio: 368 / 729;
+        position: relative;
+        z-index: 1;
+        padding: 5% 8%;
+    }
 
     h2.title {
         font-size: 16.66px;
         font-weight: 300;
         color: $secondary-color;
-        margin-top: 26%;
+        margin-top: 7%;
         margin-bottom: 6%;
     }
 
     p.subtext {
-        padding: 0 21%;
         text-align: justify;
         text-align-last: center;
         line-height: 180%;
+        margin-bottom: 10%;
+        margin-top: 10%;
     }
 
     #rsvp-form {
         width: 100%;
-        padding: 12% 20% 5%;
     }
 
     .form-group {
@@ -91,6 +116,7 @@
     .form-group.options-group {
         display: flex;
         justify-content: space-between;
+        margin-top: 24%;
     }
 
     .wish-box {
@@ -101,13 +127,14 @@
             font-weight: 300;
             color: $secondary-color;
             margin-top: 20%;
+            margin-bottom: 5%;
         }
     
         p {
             text-align: justify;
             text-align-last: center;
-            padding: 10% 3%;
             line-height: 180%;
+            margin-bottom: 5%;
         }
     }
 
@@ -135,9 +162,14 @@
     }
 
     @media (max-width: 500px) {
-        h2.title {
-            font-size: calc((16.66px / 500px) * 100vw);
+        .content { 
+        // background: url('../../assets/images/rsvp_paper.png') no-repeat center/cover;
+            max-width: calc((368/ 500) * 100vw);
         }
+        h2.title {
+            font-size: calc((16.66/ 500) * 100vw);
+        }
+        
     
         p.subtext {
             font-size: calc(($base-font-size / 500px) * 100vw);

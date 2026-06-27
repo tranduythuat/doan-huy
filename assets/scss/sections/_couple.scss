@@ -48,6 +48,9 @@
     .date-time {
         color: $secondary-color;
         padding: 8% 0;
+        .label {
+            font-size: 14px;
+        }
         .date {
             font-size: 37px;
         }
@@ -79,6 +82,12 @@
             }
         }
     }
+
+    &.vows {
+        aspect-ratio: 500 / 375;
+        background: url('../../assets/images/savethedate_bottom_bg.webp') no-repeat 0% 110%/contain,
+                url('../../assets/images/savethedate.webp') no-repeat bottom/ cover;
+    }
     
     @media (max-width: 500px) {
         h2 {
@@ -102,6 +111,9 @@
         }
 
         .date-time {
+            .label {
+                font-size: calc((14 / 500) * 100vw);
+            }
             .date {
                 font-size: 7.5vw;
             }
