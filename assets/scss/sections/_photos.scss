@@ -40,7 +40,6 @@
                 .img-box {
                     width: 100%;
                     height: 100%;
-                    // background-color: $secondary-color;
                     overflow: hidden;
                     img {
                         width: 100%;
@@ -84,7 +83,7 @@
 
         .photo-grid {
             .row {
-                max-width: calc((432 / 432) * 100vw);
+                max-width: calc((432 / 500) * 100vw);
             }
         }
     }

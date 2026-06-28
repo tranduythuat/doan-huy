@@ -560,6 +560,9 @@ header {
   .location .address {
     font-size: 2.2vw;
   }
+  .location .map {
+    min-height: 43.6vw;
+  }
   .location .map img {
     max-width: 24vw;
   }
@@ -728,7 +731,7 @@ header {
     font-size: 2.2vw;
   }
   .photos .photo-grid .row {
-    max-width: 100vw;
+    max-width: 86.4vw;
   }
 }
 

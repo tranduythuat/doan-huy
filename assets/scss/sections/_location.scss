@@ -127,6 +127,8 @@
         }
 
         .map {
+            min-height:  calc((218px / 500px) * 100vw);
+
             img {
                 max-width: calc((120 / 500) * 100vw);
                 &.map2 {
