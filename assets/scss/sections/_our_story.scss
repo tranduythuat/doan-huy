@@ -30,7 +30,7 @@
     }
     p.subtext {
         color: $secondary-color;
-        font-size: 12.43px;
+        font-size: 13px;
     }
     .photo {
         max-width: 310px;
@@ -50,7 +50,7 @@
     .text {
         text-align: justify;
         text-align-last: center;
-        padding: 0 17%;
+        padding: 0 20%;
         
         p {
             margin-bottom: 5%;
@@ -70,7 +70,7 @@
         }
         
         p.subtext {
-            font-size: calc((12.43px / 500px) * 100vw);
+            font-size: calc((13px / 500px) * 100vw);
         }
 
         .photo {

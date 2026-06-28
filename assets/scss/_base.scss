@@ -162,8 +162,9 @@ section {
 
 @media (max-width: 500px) {
     body {
-        font-size: calc((9.33 / 500) * 100vw);;
+        font-size: calc((11 / 500) * 100vw);;
     }
+    
     .navbar-container input[type="checkbox"] {
         top: 1.6%;
         right: 2.2%;

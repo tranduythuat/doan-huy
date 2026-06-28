@@ -16,12 +16,13 @@
     }
 
     .address {
-        font-size: 9px;
+        font-size: 11px;
         margin-bottom: 6%;
     }
 
     .map {
         margin-bottom: 4%;
+        min-height: 218px;
         img {
             max-width: 120px;
             width: 100%;
@@ -51,7 +52,7 @@
             max-width: 37px;
             width: 100%;
             aspect-ratio: 37 / 58;
-            margin: 9% 0 5%;
+            margin: 4% 0 5%;
             img {
                 width: 100%;
                 height: 100%;
@@ -109,13 +110,20 @@
             }
         }
     }
+
+    .dresscode {
+        color: #eeede8ff;
+        font-size: 16.38px;
+        margin-top: 3%;
+    }
+
     @media (max-width: 500px) {
         .location-name {
             font-size: 7.9vw;
         }
 
         .address {
-            font-size: calc((9px / 500px) * 100vw);
+            font-size: calc((11px / 500px) * 100vw);
         }
 
         .map {
@@ -151,6 +159,10 @@
                     }
                 }
             }
+        }
+
+        .dresscode {
+            font-size: calc((16.38 / 500) * 100vw);
         }
     }
 }

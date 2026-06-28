@@ -34,19 +34,17 @@
     }
 
     h2.title {
-        font-size: 16.66px;
+        font-size: 18px;
         font-weight: 300;
         color: $secondary-color;
-        margin-top: 7%;
-        margin-bottom: 6%;
+        margin-top: 5%;
     }
 
     p.subtext {
         text-align: justify;
         text-align-last: center;
         line-height: 180%;
-        margin-bottom: 10%;
-        margin-top: 10%;
+        margin: 5% 0;
     }
 
     #rsvp-form {
@@ -116,7 +114,7 @@
     .form-group.options-group {
         display: flex;
         justify-content: space-between;
-        margin-top: 24%;
+        margin-top: 19%;
     }
 
     .wish-box {
@@ -167,7 +165,7 @@
             max-width: calc((368/ 500) * 100vw);
         }
         h2.title {
-            font-size: calc((16.66/ 500) * 100vw);
+            font-size: calc((18/ 500) * 100vw);
         }
         
     

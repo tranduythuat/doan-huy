@@ -9,7 +9,7 @@
     aspect-ratio: 500 / 890;
 
     h2 {
-        font-size: 16.66px;
+        font-size: 18px;
         font-weight: 300;
         color: $secondary-color;
         padding-bottom: 6%;
@@ -91,11 +91,11 @@
     
     @media (max-width: 500px) {
         h2 {
-            font-size: calc((16.66px / 500px) * 100vw);
+            font-size: calc((18 / 500) * 100vw);
         }
 
         .couple-photo {
-            max-width: 40vw;
+            max-width: calc((200 / 500) * 100vw);
         }
     
         .save-the-date {
@@ -104,12 +104,6 @@
             }
         }
     
-        .subtext {
-            p {
-                font-size: calc(($base-font-size / 500px) * 100vw);
-            }
-        }
-
         .date-time {
             .label {
                 font-size: calc((14 / 500) * 100vw);

@@ -15,7 +15,7 @@
     }
 
     p {
-        padding: 0 16%;
+        padding: 0 12%;
         text-align: justify;
         text-align-last: center;
         margin-bottom: 10%;
@@ -80,6 +80,12 @@
     
         p {
             font-size: calc(($base-font-size / 500px) * 100vw);
+        }
+
+        .photo-grid {
+            .row {
+                max-width: calc((432 / 432) * 100vw);
+            }
         }
     }
 }
