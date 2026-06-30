@@ -273,7 +273,7 @@ header {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../../assets/images/couple_bg.jpg");
+  background-image: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/couple_bg.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(6px);
@@ -284,7 +284,7 @@ header {
   width: 100%;
   max-width: 364px;
   aspect-ratio: 364/650;
-  background: url("../../assets/images/our_story_bg.png") no-repeat center/cover;
+  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/our_story_bg.png") no-repeat center/cover;
   width: 100%;
   position: relative;
   z-index: 1;
@@ -352,7 +352,7 @@ header {
 }
 
 .couple {
-  background: url("../../assets/images/savethedate_bottom_bg.webp") no-repeat 0% 110%/contain, url("../../assets/images/savethedate.webp") no-repeat bottom/contain;
+  background: url("../../assets/images/savethedate_bottom_bg.webp") no-repeat 0% 110%/contain, url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/savethedate.webp") no-repeat bottom/contain;
   max-width: 500px;
   width: 100%;
   aspect-ratio: 500/890;
@@ -425,7 +425,7 @@ header {
 }
 .couple.vows {
   aspect-ratio: 500/375;
-  background: url("../../assets/images/savethedate_bottom_bg.webp") no-repeat 0% 110%/contain, url("../../assets/images/savethedate.webp") no-repeat bottom/cover;
+  background: url("../../assets/images/savethedate_bottom_bg.webp") no-repeat 0% 100%/contain, url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/base-our-story-bg.webp") no-repeat bottom/cover;
 }
 @media (max-width: 500px) {
   .couple h2 {
@@ -456,7 +456,7 @@ header {
 
 .location {
   justify-content: start;
-  background: url("../../assets/images/location_bg.png") no-repeat center/cover;
+  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/location_bg.png") no-repeat center/cover;
   max-width: 500px;
   width: 100%;
   aspect-ratio: 500/889;
@@ -590,7 +590,7 @@ header {
 }
 
 .our-story {
-  background: url("../../assets/images/our-story-bg.webp") no-repeat center/cover, url("../../assets/images/base-our-story-bg.webp") no-repeat bottom/cover;
+  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/our-story-bg.webp") no-repeat center/cover, url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/base-our-story-bg.webp") no-repeat bottom/cover;
   max-width: 500px;
   width: 100%;
   aspect-ratio: 500/890;
@@ -663,7 +663,7 @@ header {
 }
 
 .photos {
-  background: url("../../assets/images/photo-bg.webp") no-repeat center/cover;
+  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/photo-bg.webp") no-repeat center/cover;
   max-width: 500px;
   width: 100%;
   aspect-ratio: 500/890;
@@ -746,7 +746,7 @@ header {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../../assets/images/couple_bg.jpg");
+  background-image: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/couple_bg.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(6px);
@@ -754,7 +754,7 @@ header {
   z-index: 0;
 }
 .rsvp .content {
-  background: url("../../assets/images/rsvp_paper.png") no-repeat center/cover;
+  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/rsvp_paper.png") no-repeat center/cover;
   max-width: 368px;
   width: 100%;
   aspect-ratio: 368/729;
@@ -906,7 +906,7 @@ header {
 }
 
 .thankyou {
-  background: url("../../assets/images/our-story-bg.webp") no-repeat center/cover, url("../../assets/images/base-our-story-bg.webp") no-repeat bottom/cover;
+  background: url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/our-story-bg.webp") no-repeat center/cover, url("https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/base-our-story-bg.webp") no-repeat bottom/cover;
   max-width: 500px;
   width: 100%;
   aspect-ratio: 500/890;

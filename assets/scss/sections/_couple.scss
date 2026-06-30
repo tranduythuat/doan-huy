@@ -3,7 +3,7 @@
 
 .couple {
     background: url('../../assets/images/savethedate_bottom_bg.webp') no-repeat 0% 110%/contain,
-                url('../../assets/images/savethedate.webp') no-repeat bottom/contain;
+                url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/savethedate.webp') no-repeat bottom/contain;
     max-width: 500px;
     width: 100%;
     aspect-ratio: 500 / 890;
@@ -85,8 +85,8 @@
 
     &.vows {
         aspect-ratio: 500 / 375;
-        background: url('../../assets/images/savethedate_bottom_bg.webp') no-repeat 0% 110%/contain,
-                url('../../assets/images/savethedate.webp') no-repeat bottom/ cover;
+        background: url('../../assets/images/savethedate_bottom_bg.webp') no-repeat 0% 100% / contain,
+                url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/huy-doan/base-our-story-bg.webp') no-repeat bottom/ cover;
     }
     
     @media (max-width: 500px) {
