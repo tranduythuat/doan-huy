@@ -82,12 +82,17 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const form = document.forms["rsvp-form"];
+  const formNotVows = document.forms["rsvp-form-not-vows"];
   if (form) {
-    form.addEventListener("submit", (e) => handleFormSubmit(e));
+    form.addEventListener("submit", (e) => handleFormSubmit(e, "vows"));
+  }
+
+  if (formNotVows) {
+    formNotVows.addEventListener("submit", (e) => handleFormSubmit(e, "not-vows"));
   }
 });
 
-async function handleFormSubmit(e) {
+async function handleFormSubmit(e, formType) {
   e.preventDefault();
 
   const form = e.target;
@@ -114,7 +119,9 @@ async function handleFormSubmit(e) {
     },
   });
 
-  const url = "https://script.google.com/macros/s/AKfycbxqWNgtFl-uhVxPWxZyWtTZzD4DoZ0gT7n6nIifHePISi7XuK1QOTT_CFyTkRzaF_rAUg/exec?sheet=sheet-1";
+  const url = formType === "vows" 
+    ? "https://script.google.com/macros/s/AKfycbzqO-sDkiqMdub4kCSNi15Tr90lHdnXHKnZYnwnqk4M1yflyx-Vc2bb-mSX1LH8ufxbpA/exec?sheet=vows" 
+    : "https://script.google.com/macros/s/AKfycbzqO-sDkiqMdub4kCSNi15Tr90lHdnXHKnZYnwnqk4M1yflyx-Vc2bb-mSX1LH8ufxbpA/exec?sheet=not-vows";
 
   try {
     const res = await fetch(url, {
