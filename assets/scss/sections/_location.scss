@@ -114,7 +114,12 @@
     .dresscode {
         color: #eeede8ff;
         font-size: 16.38px;
-        margin-top: 3%;
+        margin-top: 0%;
+        line-height: 2.3;
+        span {
+            font-size: 13.77px;
+            color: #eeede8ff;
+        }
     }
 
     @media (max-width: 500px) {
@@ -164,7 +169,7 @@
         }
 
         .dresscode {
-            font-size: calc((16.38 / 500) * 100vw);
+            font-size: calc((13.77 / 500) * 100vw);
         }
     }
 }
