@@ -169,7 +169,10 @@
         }
 
         .dresscode {
-            font-size: calc((13.77 / 500) * 100vw);
+            font-size: calc((16.38 / 500) * 100vw);
+            span {
+                font-size: calc((13.77 / 500) * 100vw);
+            }
         }
     }
 }
